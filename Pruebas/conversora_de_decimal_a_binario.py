@@ -1,14 +1,14 @@
 
 
-def decimal(deci):
+def conversora(decimal):
     casa = False
     while not casa:
         
-        casa = deci == 1
-        print(deci % 2)
-        deci = deci // 2
+        casa = decimal == 1
+        print(decimal % 2)
+        decimal = decimal // 2
 
-decimal(36510)
+conversora(36510)
 
 
         
